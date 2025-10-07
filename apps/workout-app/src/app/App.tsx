@@ -1,9 +1,9 @@
 import React from 'react';
 import { PaperProvider } from 'react-native-paper';
 import { NavigationContainer } from '@react-navigation/native';
-import { WorkoutProvider } from './src/context/WorkoutContext';
-import TabNavigator from './src/screens/TabNavigator';
-import theme from './src/theme';
+import { WorkoutProvider } from '../context/WorkoutContext';
+import TabNavigator from '../screens/TabNavigator';
+import theme from '../theme';
 
 export default function App() {
   return (

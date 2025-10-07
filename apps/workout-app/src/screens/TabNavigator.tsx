@@ -1,7 +1,7 @@
 import React from 'react';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { IconButton } from 'react-native-paper';
-import {theme} from '../theme';
+import theme from '../theme';
 import WorkoutsScreen from './WorkoutsScreen';
 import AnalyticsScreen from './AnalyticsScreen';
 
